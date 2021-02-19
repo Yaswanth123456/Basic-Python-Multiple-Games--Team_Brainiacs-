@@ -1,0 +1,48 @@
+from tkinter import *
+from random import *
+import tkinter.messagebox
+
+#Creating the Main Window
+root=Tk()
+
+#Labeling the Titke for Window
+root.title('THE TEAM BRAINIACS')
+
+#Setting Main Window
+root.state('zoomed')
+root.rowconfigure(0,weight=1)
+root.columnconfigure(0,weight=1)
+
+
+
+
+
+
+#___________________________________________________Creating Frames_____________________________________________________________
+f1=Frame(root)
+f1.config(bg='LightCyan2')
+img_1 = PhotoImage(file='C:\\Users\\yaswa\\Desktop\\Rockpaperscisor.gif')
+label___1 = Label(f1,image=img_1)
+label___1.place(relx=0.83,rely=0.05) 
+
+img_2 = PhotoImage(file='C:\\Users\\yaswa\\Desktop\\frst ttt.gif')
+label___2 = Label(f1,image=img_2)
+label___2.place(relx=0.03,rely=0.65)
+ 
+img_3 = PhotoImage(file='C:\\Users\\yaswa\\Desktop\\game color.gif')
+label___3 = Label(f1,image=img_3)
+label___3.place(relx=0.44,rely=0.74)
+
+img_4 = PhotoImage(file='C:\\Users\\yaswa\\Desktop\\Guess number.gif')
+label___4 = Label(f1,image=img_4)
+label___4.place(relx=0.03,rely=0.1)
+
+f2=Frame(root)
+f2.config(bg='light green')
+
+f3=Frame(root)
+f3.config(bg='white')
+
+f4=Frame(root)
+
+f5=Frame(root)
